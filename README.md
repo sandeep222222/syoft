@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-##Output:
+#Output:
 
 ![Screenshot (628)](https://github.com/user-attachments/assets/92c0fe09-dffe-40f0-b927-be56fe5f490e)
 
