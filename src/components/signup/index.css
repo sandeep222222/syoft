@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.app-container-signup{
+  display: flex;
+  flex-direction: row;
+
+  height: 96vh;
+background-color: #efecec;
+padding: 10px;
+}
+
+
+.form-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+padding: 14px 34px;
+background-color: white;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+width: 47%;
+  }
+
+
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.logo{
+  width: 48px;
+  height: 48px;
+}
+.signup{
+  font-family: inter;
+  font-size: 32px;
+  color: #111827;
+  margin: 14px 0px 0px;
+}
+
+.sub-signup{
+  font-family: inter;
+  font-size: 14px;
+  color: #111827;
+font-family: 400;
+}
+.span{
+  color: #4f46e5;
+  margin: 0px 0px 0px 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.input-label{
+  font-family: inter;
+  font-size: 13px;
+  color: #6b6767;
+  font-weight: 400;
+}
+.username-input-field{
+  border: 1px solid #989191;
+  height: 34px;
+  width: 92%;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  padding: 2px 5px;
+  outline: none;
+}
+.privacy-policy{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 6px;
+}
+.check{
+ margin-right: 4px;
+  width: 18px;
+  height: 18px;
+}
+.agree{
+  font-family: inter;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 4px;
+}
+.span-text{
+  font-family: inter;
+  font-size: 14px;
+  color: #4f46e5;
+  font-weight: 500;
+}
+.btn{
+  background-color: #4f46e5;
+  font-family: inter;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+@media (max-width:800px){
+
+  .app-container-signup{
+    justify-content: center;
+    
+  }
+  .form-side{
+    border-radius: 6px;
+    width: 60%;
+  }
+}
+
+.error-message{
+  font-family: inter;
+  font-size: 12px;
+  color: red;
+  margin-top: 1px;
+}

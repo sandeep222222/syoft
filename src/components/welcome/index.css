@@ -1,0 +1,44 @@
+.text-side{
+    background-image: url('https://southpaccertifications.com/hubfs/Southpac_Hero_BG_OceanBlue-3.svg');
+    background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 45px 102px;
+      width: 62%;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    .welcome{
+      font-family: inter;
+      font-size: 46px;
+      color: #f5f5f5;
+      font-weight: 700;
+    
+    }
+    .img{
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-left: -15px;
+    }
+    .para, .paras{
+      font-family: inter;
+      font-size: 16px;
+      color: #bdbdbd;
+    }
+    .img-text{
+      display: flex;
+      align-items: center;
+      margin-top: 12px;
+    }
+    .paras{
+      margin-left: 12px;
+    }
+    @media (max-width:800px){
+      .text-side{
+        display: none;
+      }
+  
+    }
